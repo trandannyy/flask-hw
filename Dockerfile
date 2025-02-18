@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="Your Name <dantran@hmc.edu>"
+LABEL maintainer="Danny Tran <dantran@hmc.edu>"
 
 RUN apt-get update -y && \
     apt-get install -y python3-pip python-dev
